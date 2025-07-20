@@ -41,7 +41,7 @@ const ContactPage = () => {
             <img 
               src="/Logo L'avenue.png" 
               alt="L'Avenue Laval Logo" 
-              className="mx-auto h-24 w-auto mb-4 drop-shadow-2xl"
+             className="mx-auto h-24 w-auto drop-shadow-2xl"
             />
           </div>
         </div>
