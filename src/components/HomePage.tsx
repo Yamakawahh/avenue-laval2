@@ -38,7 +38,6 @@ const HomePage = () => {
           />
           {/* Text and Button */}
           <div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white leading-tight tracking-tight mb-8 text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white leading-tight tracking-tight mb-8 text-center">
               organisez votre soirée privée ou d'entreprise chez l'avenue laval!
             </h1>
