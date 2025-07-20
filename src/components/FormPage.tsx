@@ -71,7 +71,7 @@ const FormPage = () => {
               </p>
             </div>
 
-            <form action="https://formsubmit.co/paul.lelevier@gmail.com" method="POST" className="space-y-6">
+            <form action="https://formsubmit.co/avenue.restaurant.laval@gmail.com" method="POST" className="space-y-6">
               {/* Nom */}
               <div>
                 <label htmlFor="nom" className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">
