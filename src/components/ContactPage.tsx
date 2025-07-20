@@ -70,16 +70,13 @@ const ContactPage = () => {
 
             <div className="space-y-6">
               {/* Email */}
-              <div className="flex items-center justify-center bg-gradient-to-r from-red-50 to-green-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+              <div className="flex items-center justify-center bg-gradient-to-r from-red-50 to-green-50 rounded-2xl p-8 hover:shadow-lg transition-shadow cursor-pointer" onClick={() => navigate('/form')}>
                 <Mail className="w-10 h-10 text-red-600 mr-6 flex-shrink-0" />
                 <div className="text-center">
-                  <p className="text-sm font-semibold text-gray-600 mb-2 uppercase tracking-wide">Email</p>
-                  <a 
-                    href="mailto:avenue.restaurant.laval@gmail.com"
-                    className="text-xl md:text-2xl font-bold text-red-700 hover:text-red-800 transition-colors break-all"
-                  >
-                    avenue.restaurant.laval@gmail.com
-                  </a>
+                  <p className="text-sm font-semibold text-gray-600 mb-2 uppercase tracking-wide">Formulaire en ligne</p>
+                  <button className="text-xl md:text-2xl font-bold text-red-700 hover:text-red-800 transition-colors">
+                    ENVOYER UNE DEMANDE
+                  </button>
                 </div>
               </div>
 
