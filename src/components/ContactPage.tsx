@@ -56,7 +56,7 @@ const ContactPage = () => {
               RÉSERVATION
             </h1>
             <h2 className="text-2xl md:text-3xl font-bold text-white/90">
-              Événements Privés
+              Évènements Privés
             </h2>
           </div>
 
