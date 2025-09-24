@@ -71,7 +71,12 @@ const FormPage = () => {
               </p>
             </div>
 
-            <form action="https://formsubmit.co/avenue.restaurant.laval@gmail.com" method="POST" className="space-y-6">
+            <form action="https://formsubmit.co/hattash.khodabakhsh@aircanada.ca" method="POST" className="space-y-6">
+              {/* FormSubmit config fields */}
+              <input type="hidden" name="_subject" value="Nouvelle réservation - L'Avenue Laval" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="text" name="_honey" className="hidden" aria-hidden="true" tabIndex={-1} />
               {/* Nom */}
               <div>
                 <label htmlFor="nom" className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">
